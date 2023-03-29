@@ -22,7 +22,7 @@ public class VerifyTitleinChrome {
 	@BeforeClass
 	public void setup() throws MalformedURLException
 	{
-		System.out.println("Running test in docker .......");
+		System.out.println("Running test in docker ");
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
